@@ -9,6 +9,6 @@ jobs:
     secrets: inherit
     with:
       board: '["nice_nano"]'
-      shield: '["corne_left","corne_right"]'
+      shield: '["corne_left"]'
       kconfig: '["CONFIG_ZMK_POINTING=y\nCONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY=y\nCONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING=y\nCONFIG_ZMK_SLEEP=y\nCONFIG_ZMK_COMBO_MAX_COMBOS_PER_KEY=16"]'
       alphas: '["qwerty"]'
